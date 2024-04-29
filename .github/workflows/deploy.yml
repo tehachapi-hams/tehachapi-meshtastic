@@ -24,7 +24,6 @@ jobs:
           echo `pwd`/mdbook >> $GITHUB_PATH
       - name: Build Book
         run: |
-          cd book
           mdbook build
       - name: Setup Pages
         uses: actions/configure-pages@v2
@@ -32,7 +31,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: 'book/book'
+          path: 'book'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1

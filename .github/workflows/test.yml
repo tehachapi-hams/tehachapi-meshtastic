@@ -21,4 +21,4 @@ jobs:
         echo "$(pwd)/bin" >> $GITHUB_PATH
     - name: Run tests
       run: |
-        mdbook test book
+        mdbook test
