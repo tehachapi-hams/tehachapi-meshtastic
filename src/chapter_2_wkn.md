@@ -1,5 +1,7 @@
 # Well Known Nodes
 
+![Map, as of May 2nd, 2024](./images/tehachapi-meshtastic-20240502.jpg)
+
 ## Downtown Tehachapi
 
 ### `dt01` / `downtown-01`
