@@ -2,6 +2,12 @@
 
 The current channel layout, for the Tehachapi Meshtastic network, is laid out like so.
 
+## QR Code
+
+A shortcut, to getting everything dialed in, is available by using the Meshtastic App with this QR Code.
+
+![Map, as of May 2nd, 2024](./images/tehachapi-meshtastic-qrcode-20240817.png)
+
 ## Configuration Reference
 
 - [Meshtastic Channel Documentation](https://meshtastic.org/docs/configuration/radio/channels/)
