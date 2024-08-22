@@ -11,7 +11,7 @@ antenna placement is sub-optimal, but seems to generally get about a mile
 of coverage.
 
 - **Hardware:** [2019 LILYGO T-Beam T22 v1.1](https://meshtastic.org/docs/hardware/devices/tbeam/?t-beam=1.1)
-- **Software:**  [Meshtastic Firmware v2.4.0.46d7b82](https://github.com/meshtastic/firmware/releases/tag/v2.4.0.46d7b82)
+- **Software:**  [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303)
 - **Mode:** `CLIENT`
 
 Software gets updated along the Beta channel semi-frequently, and this documentation does not automatically update.
@@ -26,7 +26,7 @@ by a UPS unit. The antenna placement is sub-optimal. This is in a small valley
 base, so coverage is limited.
 
 - **Hardware:** [2019 LILYGO T-Beam T22 v1.1](https://meshtastic.org/docs/hardware/devices/tbeam/?t-beam=1.1)
-- **Software:**  [Meshtastic Firmware v2.4.0.46d7b82](https://github.com/meshtastic/firmware/releases/tag/v2.4.0.46d7b82)
+- **Software:**  [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303)
 - **Mode:** `CLIENT`
 
 Software gets updated along the Beta channel semi-frequently, and this documentation does not automatically update.
@@ -40,8 +40,8 @@ Village), near Indian Hills Campground. Solar powered with an external
 fiberglass antenna. Undergoing testing for permanent installation, but
 I'll need to see how it does over the winter.
 
-- **Hardware:** [2019 LILYGO T-Beam T22 v1.1](https://meshtastic.org/docs/hardware/devices/tbeam/?t-beam=1.1)
-- **Software:**  Close to [Meshtastic Firmware v2.4.0.46d7b82](https://github.com/meshtastic/firmware/releases/tag/v2.4.0.46d7b82). (Need to check)
+- **Hardware:** [2024 RAK4631](https://meshtastic.org/docs/hardware/devices/rak/)
+- **Software:**  Close to [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303). (Need to check)
 - **Mode:** `CLIENT` (Slated to change to `REPEATER`)
 
 Software gets updated along the Beta channel semi-frequently, and this documentation does not automatically update.
