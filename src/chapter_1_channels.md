@@ -6,7 +6,7 @@ The current channel layout, for the Tehachapi Meshtastic network, is laid out li
 
 A shortcut, to getting everything dialed in, is available by using the Meshtastic App with this QR Code.
 
-![Map, as of May 2nd, 2024](./images/tehachapi-meshtastic-qrcode-20240817.png)
+![Map, as of May 2nd, 2024](./images/tehachapi-meshtastic-qrcode-20240821.png)
 
 ## Configuration Reference
 
@@ -16,16 +16,16 @@ A shortcut, to getting everything dialed in, is available by using the Meshtasti
 
 Nodes in the network, with the exception of Default Role, SHOULD operate with these general settings:
 
-| Index | Channel | Default Role  |  Name        | Purpose                                    | Encryption Setting  | Last Change |
-| :---: | :-----: | :-----------: | :----------: | :----------------------------------------: | :-----------------: | :---------: |
-|   0   |    1    |  `PRIMARY`    | `tm-pri`     | (telemetry) Open Network Channel           | `none`              | 2024-04-29  |
-|   1   |    2    |  `SECONDARY`  | `tm-gen`     | (chat) Open General Chat Channel           | `none`              | 2024-04-29  |
-|   2   |    3    |  User Defined | User defined | User Defined                               |                     |             |
-|   3   |    4    |  User Defined | User defined | User Defined                               |                     |             |
-|   4   |    5    |  User Defined | User defined | User Defined                               |                     |             |
-|   5   |    6    |  User Defined | User defined | User Defined                               |                     |             |
-|   6   |    7    |  User Defined | User defined | User Defined                               |                     |             |
-|   7   |    8    |  User Defined | User defined | User Defined                               |                     | 2024-08-07  |
+| Index | Channel | Default Role  |  Name        | Purpose                                    | Encryption Setting        | Last Change |
+| :---: | :-----: | :-----------: | :----------: | :----------------------------------------: | :-----------------------: | :---------: |
+|   0   |    1    |  `PRIMARY`    | `tm-pri`     | (telemetry) Open Network Channel           | `default` (aka `0x01`)    | 2024-08-21  |
+|   1   |    2    |  `SECONDARY`  | `tm-gen`     | (chat) Open General Chat Channel           | `default` (aka `0x01`)    | 2024-08-21  |
+|   2   |    3    |  User Defined | User defined | User Defined                               |                           |             |
+|   3   |    4    |  User Defined | User defined | User Defined                               |                           |             |
+|   4   |    5    |  User Defined | User defined | User Defined                               |                           |             |
+|   5   |    6    |  User Defined | User defined | User Defined                               |                           |             |
+|   6   |    7    |  User Defined | User defined | User Defined                               |                           |             |
+|   7   |    8    |  User Defined | User defined | User Defined                               |                           | 2024-08-07  |
 
 Variances:
 
@@ -41,12 +41,14 @@ General things to know:
   sent from it, just for folks to test connectivity quickly.
   - Traceroute is another useful tool for this.
   - At this point in time, Range Test should feel free to operate in here.
-- The encryption setting of `none` is set to meet opinions of ham radio
-  operators, because it allows the most number of Ham's to help the network
-  with stronger transmissions that unlicensed users cannot perform.
-  - Since we would intend to publish an encryption key here anyways, encrypted
-    traffic is an allowed mode of operation since the key is published. But
-    some folks don't get it.
+- The encryption setting of `default` (the trivial key of "1") is now set to
+  match the convenience of new users on the network.
+  - Ham Radio operators should note that this is a **PUBLISHED KEY** on this
+    **PUBLIC WEBPAGE**, and the intent is not to `obscure meaning`.
+  - At this time, we have recieved no contact from an FCC Regional Director
+    under §97.309(b) restricting our usage.
+  - All records, if they were required to be kept, are already recorded in
+    this `git` repository.
 - There can be no gaps between channels. You can't have Channel 8, if you don't
   also have Channels 1-7 setup.
 
