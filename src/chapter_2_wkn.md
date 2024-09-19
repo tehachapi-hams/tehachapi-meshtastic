@@ -1,6 +1,6 @@
 # Well Known Nodes
 
-![Map, as of September 18th, 2024](./images/tehachapi-meshtastic-map-20240918.png)
+![Map, as of September 18th, 2024](./images/tehachapi-meshtastic-map-20240918.jpg)
 
 ## Downtown Tehachapi
 
