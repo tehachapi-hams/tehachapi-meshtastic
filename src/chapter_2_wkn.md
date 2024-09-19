@@ -1,6 +1,6 @@
 # Well Known Nodes
 
-![Map, as of May 2nd, 2024](./images/tehachapi-meshtastic-20240502.jpg)
+![Map, as of September 18th, 2024](./images/tehachapi-meshtastic-map-20240918.png)
 
 ## Downtown Tehachapi
 
@@ -33,15 +33,41 @@ Software gets updated along the Beta channel semi-frequently, and this documenta
 
 ### `rs04` / `rak-solar-04` 
 
-Sometimes `rs05` / `rak-solar-05`.
-
 Operates from the South East side of Alpine Forest (sometimes called Alpine
-Village), near Indian Hills Campground. Solar powered with an external
-fiberglass antenna. Undergoing testing for permanent installation, but
-I'll need to see how it does over the winter.
+Village), near Indian Hills Campground.
 
 - **Hardware:** [2024 RAK4631](https://meshtastic.org/docs/hardware/devices/rak/)
-- **Software:**  Close to [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303). (Need to check)
-- **Mode:** `CLIENT` (Slated to change to `REPEATER`)
+  - **Power:** Solar + 5Ah Battery
+    - **Antenna:** External Fiberglass
+- **Software:**  Close to [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303).
+- **Mode:** `CLIENT` (Potentially may become `ROUTER` for the area, if nothing better is found)
 
 Software gets updated along the Beta channel semi-frequently, and this documentation does not automatically update.
+
+### `rs01` / `rak-solar-01` 
+
+Operates from the South East side of Alpine Forest a few hundred feet above
+`rs04` with a strong view of the Western side of Tehachapi Mountain.
+Undergoing testing for permanent installation, but I'll need to see how it
+does over the winter.
+
+- **Hardware:** [2024 RAK4631](https://meshtastic.org/docs/hardware/devices/rak/)
+  - **Power:** Solar + 3Ah Battery
+  - **Antenna:** Internal
+- **Software:**  Close to [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303).
+- **Mode:** `CLIENT`
+
+## Jury Ranch
+
+### `jr01` / `jury-ranch-01`
+
+Operates from a location on Jury Ranch, and generally acts as a bridge across
+the ridgelines separating Line-of-Sight between the East and Western halves
+of Tehachapi Valley.
+
+- **Hardware:** [2024 RAK4631](https://meshtastic.org/docs/hardware/devices/rak/)
+  - **Power:** Solar + 3Ah Battery 
+  - **Antenna:** Internal
+- **Software:**  Close to [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303).
+- **Mode:** `CLIENT` (Slated to change to `ROUTER` or `REPEATER`)
+- **Formerly Known As:** `rs03` / `rak-solar-03`

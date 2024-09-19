@@ -10,3 +10,7 @@ have one, that works for nodes with internet connections, I will consider it.
 
 Both of these nodes are bridged via a private MQTT server, meaning anything
 that hits Alpine, will be re-broadcast in Downtown Tehachapi and vice versa.
+
+**NOTE:** This is now a redundant connection, with the activation of `jr-01`.
+This link may still sometimes be chosen, due to the high speed fiber
+interconnect between the 2 areas.
