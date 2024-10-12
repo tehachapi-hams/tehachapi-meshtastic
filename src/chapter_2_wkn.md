@@ -57,13 +57,14 @@ does over the winter.
 - **Software:**  Close to [Meshtastic Firmware v2.4.2.5b45303](https://github.com/meshtastic/firmware/releases/tag/v2.4.2.5b45303).
 - **Mode:** `CLIENT`
 
-## Jury Ranch
+## ~~Jury Ranch~~
 
-### `jr01` / `jury-ranch-01`
+### ~~`jr01` / `jury-ranch-01`~~ **Currently Offline** (replacements ready for deployment)
 
 Operates from a location on Jury Ranch, and generally acts as a bridge across
 the ridgelines separating Line-of-Sight between the East and Western halves
-of Tehachapi Valley.
+of Tehachapi Valley. This is currently a critical node in the overall valley's
+connectivity.
 
 - **Hardware:** [2024 RAK4631](https://meshtastic.org/docs/hardware/devices/rak/)
   - **Power:** Solar + 3Ah Battery 
